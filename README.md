@@ -1,2 +1,2 @@
-# projeto-front-end
-Projeto Front-End
+# Projeto Front-end
+Projeto Integrador Senac - Módulo 1
