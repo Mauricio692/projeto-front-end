@@ -14,27 +14,28 @@
 
 <body>
     <header>
-    <nav class="navbar fixed-top navbar-expand-lg custom-bg p-20">
-        <div class="container-fluid">
-            <a class="navbar text-a custom-a text-nav" href="principal.html">
-                <img src="imagens/logo-white.png" alt="Logo" width="50" height="50" class="d-inline-block">
-                <a href="#" class="text-a">TopTurismo</a>
-            </a>
-            <div class="dropdown ms-auto">
-                <button class="btn btn-light dropdown-toggle" type="button" id="temaMenu" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    <i class="bi bi-circle-half"></i> Tema
-                </button>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="temaMenu">
-                    <li><a class="dropdown-item" onclick="setTheme('light')"><i
-                        class="bi bi-sun-fill me-2"></i>Claro</a></li>
-                    <li><a class="dropdown-item" onclick="setTheme('dark')"><i
-                        class="bi bi-moon-fill me-2"></i>Escuro</a></li>
-                </ul>
+        <nav class="navbar fixed-top navbar-expand-lg custom-bg p-20">
+            <div class="container-fluid">
+                <a class="navbar text-a custom-a text-nav" href="principal.html">
+                    <img src="imagens/logo-white.png" alt="Logo" width="50" height="50" class="d-inline-block">
+                    <a href="#" class="text-a">TopTurismo</a>
+                </a>
+                <div class="dropdown ms-auto">
+                    <button class="btn btn-light dropdown-toggle" type="button" id="temaMenu" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="bi bi-circle-half"></i> Tema
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="temaMenu">
+                        <li><a class="dropdown-item" onclick="setTheme('light')"><i
+                                    class="bi bi-sun-fill me-2"></i>Claro</a></li>
+                        <li><a class="dropdown-item" onclick="setTheme('dark')"><i
+                                    class="bi bi-moon-fill me-2"></i>Escuro</a></li>
+                    </ul>
+                </div>
             </div>
-    </nav>
+        </nav>
     </header>
-    
+
     <main>
         <section class="mt-5">
             <div id="myCarousel" class="carousel slide mt-0" data-bs-ride="carousel">
@@ -222,4 +223,5 @@
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>
